@@ -1,0 +1,33 @@
+<DOCTYPE html>
+    <head>
+        <title> Forms</title>
+    </head>
+
+    <body>
+        <hi>Survey Questionnaire</h1>
+        <form name="input" action ="html_form_action.asp" mehtod="post>
+            First Name: <input type = "text" name = "first name"><br/></br1>
+            Last Name: <input type = "text" name = "first name"><br/></br1>
+            Password: <input type = "password" name = "pass"><br/></br1>
+            <textarea name = "essay">Why are you taking this class?"</textarea><br/></br1>
+            Are you enjoying this?
+            <input type = "radio" name = "answer" value = "yes"/> Yes </br1>
+            <input type = "radio" name = "answer" value = "yes"/> No</br1>
+
+            What types of food do you like?
+            <input type = "checkbox" name = "food" value = "pizza"/> Pizza </br1>
+            <input type = "checkbox" name = "food" value = "pasta"/> Pasta </br1>
+            <input type = "checkbox" name = "food" value = "burrito"/> Burrito </br1>
+
+            <p> Who is your favorite TA? </p>
+            <select name = "tas">
+            <option value = "jake"> Jake</option>
+            <option value = "suraj"> Suraj</option>
+            <option value = "ashley"> Ashley</option>
+            </select>
+
+            <br/>
+            <input type = "submit" value = "Submit">
+            <rm>
+            
+
